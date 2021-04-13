@@ -2,7 +2,7 @@
 
 We start the installation by creating a new project called Argocd.
 
-![image](https://user-images.githubusercontent.com/3519706/114406397-2e674000-9bb0-11eb-8da3-d84f2f7cefc3.png)
+![image](https://user-images.githubusercontent.com/3519706/114538510-24028000-9c5c-11eb-9d61-3a19749e1594.png)
 
 Then we easily install ArgoCD operator on OperatorHub.
 
@@ -30,11 +30,7 @@ I leave it as default and create Instance.
 
 The basic applications required for ArgoCD have been up and running.
 
-![image](https://user-images.githubusercontent.com/3519706/114407347-f7455e80-9bb0-11eb-9ac1-323ea041bf65.png)
-
-We need to create a route to reach the ArgoCD interface.
-
-![image](https://user-images.githubusercontent.com/3519706/114407423-0af0c500-9bb1-11eb-9e12-c7f25852a68a.png)
+![image](https://user-images.githubusercontent.com/3519706/114538645-46949900-9c5c-11eb-9b10-0d4507a02730.png)
 
 ![image](https://user-images.githubusercontent.com/3519706/114407484-1c39d180-9bb1-11eb-9fc2-d5cecd6ec925.png)
 
