@@ -111,5 +111,7 @@ Namespace  : default
 ```
 
 **Reference**
+
 [1] -  https://medium.com/devopsturkiye/gitops-nedir-openshift-container-platform-%C3%BCzerine-argocd-kurulumu-2a120215e190
+
 [2] - https://github.com/siamaksade/openshift-gitops-getting-started
