@@ -104,8 +104,8 @@ Namespace  : gitops-dev
 ```
 **#example2**
 ```
-Repository : https://github.com/emreozkangit/gitops-examples.git
-Revision:  : master
+Repository : https://github.com/OktaySavdi/gitops-example.git
+Revision:  : HEAD
 Path       : bgd
 Namespace  : bgd
 ```
