@@ -106,8 +106,8 @@ Namespace  : gitops-dev
 ```
 Repository : https://github.com/emreozkangit/gitops-examples.git
 Revision:  : master
-Path       : guestbook
-Namespace  : default
+Path       : bgd
+Namespace  : bgd
 ```
 
 **Reference**
