@@ -42,6 +42,10 @@ After providing the password, we can now log into the system with the admin user
 
 ![image](https://user-images.githubusercontent.com/3519706/114407775-6cb12f00-9bb1-11eb-8a7b-7e2bbabe1fc4.png)
 
+set cluster edit for sa user
+```
+oc adm policy add-cluster-role-to-user edit system:serviceaccount:openshift-gitops:openshift-gitops-argocd-application-controller
+```
 **ArgoCD CLI Setup**
 
 After installing, we need to login to ArgoCD system.
