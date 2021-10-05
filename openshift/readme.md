@@ -34,15 +34,17 @@ After successfully creating the route, we can now login. If we want, we can use 
 
 ![image](https://user-images.githubusercontent.com/3519706/114407606-3a073680-9bb1-11eb-8be9-b7bf4ee190e2.png)
 
-But first, I need to provide the admin password. In the ArgoCD project, I can get it from the secret section as follows.
+Argo CD upon installation generates an initial admin password which is stored in a Kubernetes secret. In order to retrieve this password, run the following command to decrypt the admin password:
+```
+oc extract secret/openshift-gitops-cluster -n openshift-gitops --to=-
+```
+Click on Argo CD from the OpenShift Web Console application launcher and then log into Argo CD with admin username and the password retrieved from the previous step.
 
-![image](https://user-images.githubusercontent.com/3519706/115991036-11c70100-a5cf-11eb-8b22-b52371901d5b.png)
-
-After providing the password, we can now log into the system with the admin user.
+After providing the password, we can now log into the system with the `admin` user.
 
 ![image](https://user-images.githubusercontent.com/3519706/114407775-6cb12f00-9bb1-11eb-8a7b-7e2bbabe1fc4.png)
 
-set cluster edit for sa user
+set cluster edit for sa openshift-gitops-argocd-application-controller user
 ```
 oc adm policy add-cluster-role-to-user edit system:serviceaccount:openshift-gitops:openshift-gitops-argocd-application-controller
 ```
